@@ -1,0 +1,1 @@
+# sequlize_model_relation_demo
