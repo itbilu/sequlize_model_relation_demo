@@ -8,9 +8,9 @@ module.exports = function (sequelize, DataTypes) {
 		active: { type: DataTypes.BOOLEAN, allowNull: false, defaultValue: true, comment:'是否正常状态' }
 	},
 	{
-		underscored: true,
 		timestamps: true,
-    paranoid: true,
+		underscored: true,
+    // paranoid: true,
 		freezeTableName: true,
 		tableName: 'user',
 		charset: 'utf8',
